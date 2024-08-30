@@ -1,5 +1,4 @@
 # ARIA Systems Group Website - Alembic
-[![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
 
 ## About
 
@@ -10,15 +9,15 @@
 
 ### Quick setup (Fork Repo)
 
-1. [Fork the repo](https://github.com/yusif-razzaq/alembic#fork-destination-box)
+1. [Fork the repo](https://github.com/yusif-razzaq/ARIA-website-v3#fork-destination-box)
 2. [Install Jekyll](https://jekyllrb.com/docs/installation/) on your system.
 2. Run the command `bundle install` in the root of project to install the jekyll theme gem as a dependancy.
 5. Run `bundle exec jekyll serve` to build and serve the website.
-6. Done! Use the [configuration](#configuration) documentation and the [`_config.yml`](https://github.com/yusif-razzaq/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons.
+6. Done! Use the [configuration](#configuration) documentation and the [`_config.yml`](https://github.com/yusif-razzaq/ARIA-website-v3/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons.
 
 ## Configuration
 
-There are a number of optional settings to configure. Use the example [`_config.yml`](https://github.com/yusif-razzaq/alembic/blob/master/_config.yml) file in the repo and use the documentation below to configure the site:
+There are a number of optional settings to configure. Use the example [`_config.yml`](https://github.com/yusif-razzaq/ARIA-website-v3/blob/master/_config.yml) file in the repo and use the documentation below to configure the site:
 
 ### Site settings
 
