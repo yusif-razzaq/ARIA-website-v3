@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   max-width: 1700px;
   margin: 0 auto;
 }
@@ -520,7 +520,7 @@ pre code {
 
 .flex-child img {
   max-width: 100%;
-  width: 12vw;
+  width: 70%;
 }
 
 .flex-child {
@@ -532,3 +532,22 @@ pre code {
   margin-bottom: -1rem;
 }
 
+.iframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Optional: Adjusts the space between the iframes */
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Ensure the iframe maintains a 16:9 aspect ratio */
+  max-width: 47%;
+  flex: 1 1 auto;
+  border: none; /* Optional: Remove the iframe border */
+}
+
+h3.people-name {
+  padding-top: 20px;
+}

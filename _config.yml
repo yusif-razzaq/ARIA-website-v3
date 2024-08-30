@@ -109,13 +109,13 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "ARIA Systems Group" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/images/aria_sys_banner.jpg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+description: "Research Lab" # Site description and default description, also used in jekyll-seo-tag
+url: "https://ariasystems.group/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/aria-systems-group/website"
+email: "Morteza.Lahijanian@colorado.eduMorteza.Lahijanian@colorado.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -140,25 +140,25 @@ navigation_header:
 - title: Home
   url: /
 - title: About
-  url: /about/
+  url: /about.html
 - title: Research
   url: /projects/all.html
 - title: Publications
-  url: /publications/
+  url: /publications.html
 - title: People
   url: /people/all.html
 - title: Contact
-  url: /contact/
+  url: /contact.html
 - title: Join
-  url: /join/
+  url: /join.html
 - title: GitHub
   url: https://github.com/aria-systems-group
 - title: YouTube
   url: https://youtube.com/channel/UCmDEAZpgAZjP6AOSgynYEOA
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: ARIA Systems Group • CU Boulder • Department of Aerospace Engineering Sciences • Boulder, CO • USA
+  url: /
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Email: morteza.lahijanian@colorado.edu

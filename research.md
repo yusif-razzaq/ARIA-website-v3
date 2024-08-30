@@ -12,7 +12,7 @@ ARIA Systems group develops novel theoretical foundations and computational fram
 {% for projects in sorted %}
 {% if projects.status == "current" %}
 <div class="bottom-border">
-    <h6>
+    <h6 class="less-mb">
     {% if projects.link-flag %}
     <a href="{{ site.baseurl }}{{ projects.url }}">{{ projects.name }}</a> 
     {% else %}

@@ -22,7 +22,7 @@ class: people
 {% endif %}
 </div>
 <div class="flex-child">
-<h3>
+<h3 class="people-name">
 {% if people.picture-link != blank %}
 <a href="{{ people.header-link }}" target="_blank">{{ people.name }}</a>
 {% elsif people.generate-extra-page %}

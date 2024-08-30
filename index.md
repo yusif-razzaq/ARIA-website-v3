@@ -3,7 +3,7 @@ title:
 layout: page
 ---
 
-{% include carousel2.html height="50" unit="%" duration="100" images="./assets/images/main_carousel/0.jpg,./assets/images/main_carousel/1.png,./assets/images/main_carousel/2.jpg,./assets/images/main_carousel/3.jpg,./assets/images/main_carousel/4.jpg,./assets/images/main_carousel/5.jpg,./assets/images/main_carousel/6.jpg,./assets/images/main_carousel/7.jpg,./assets/images/main_carousel/test.gif"%}
+{% include carousel2.html height="50" unit="%" duration="100" images="./assets/images/main_carousel/0.jpg,./assets/images/main_carousel/test.gif,./assets/images/main_carousel/1.png,./assets/images/main_carousel/2.jpg,./assets/images/main_carousel/3.jpg,./assets/images/main_carousel/4.jpg,./assets/images/main_carousel/5.jpg,./assets/images/main_carousel/6.jpg,./assets/images/main_carousel/7.jpg"%}
 
 # Welcome to the ARIA Systems homepage!
 
