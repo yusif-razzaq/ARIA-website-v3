@@ -17,7 +17,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -45,6 +45,36 @@ jobs:
         with:
           enable_cache: true
           
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          
+      - run: | 
+          npm install -g staticrypt
+
+      - run: bundle install
+      - run: bundle lock
+      
+      - name: Building the website 
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
   # Deployment job
   deploy:
     environment:
