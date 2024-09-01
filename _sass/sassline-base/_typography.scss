@@ -26,7 +26,7 @@ a {
   text-decoration: none;
   transition: color .1s, background-color .1s;
 
-  &:hover, &:active, &:focus {
+  &:hover{
     color: $hoverColour;
     text-decoration: none;
   }
@@ -46,7 +46,7 @@ a {
                 -0.1rem 0 $backgroundColour,
                 -0.15rem 0 $backgroundColour;
 
-    &:hover, &:active, &:focus {
+    &:hover {
       background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
     }
   }
@@ -121,7 +121,7 @@ a {
   ol {
     list-style-type: none;
 
-    li {
+    >li {
       counter-increment: top-level;
 
       &:before {
@@ -143,7 +143,7 @@ a {
 
           ol {
 
-            li {
+            >li {
               counter-increment: alt-level;
 
               &:before {
@@ -156,7 +156,7 @@ a {
 
       ol {
 
-        li {
+        >li {
           counter-increment: sub-level;
 
           &:before {
@@ -175,7 +175,7 @@ a {
 
           ol {
 
-            li {
+            >li {
               counter-increment: sub-sub-level;
 
               &:before {
