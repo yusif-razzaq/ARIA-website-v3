@@ -10,7 +10,7 @@
 # 9. Site navigation
 
 scholar:
-  style: ./assets/bibliography/ieee-with-url.csl
+  style: assets/bibliography/ieee-with-url.csl
   bibliography_template: bib
   sort_by: year,month
   order: descending
@@ -92,7 +92,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "./assets/default-social-image.png" # Default image for sharing
+      image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -110,12 +110,12 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "ARIA Systems Group" # Site name or title, also used in jekyll-seo-tag
-logo: "./assets/images/aria_sys_banner.jpg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/images/aria_sys_banner.jpg" # Site logo, also used in jekyll-seo-tag
 description: "Research Lab" # Site description and default description, also used in jekyll-seo-tag
 url: "https://ariasystems.group/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/aria-systems-group/website"
-email: "Morteza.Lahijanian@colorado.eduMorteza.Lahijanian@colorado.edu"
+email: "Morteza.Lahijanian@colorado.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -126,31 +126,31 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: './assets/images/favicon.jpg'
-  32: './assets/images/favicon.jpg'
-  96: './assets/images/favicon.jpg'
-  120: './assets/images/favicon.jpg'
-  144: './assets/images/favicon.jpg'
-  180: './assets/images/favicon.jpg'
-  512: './assets/images/favicon.jpg'
-  1024: './assets/images/favicon.jpg'
+  16: '/assets/images/favicon.jpg'
+  32: '/assets/images/favicon.jpg'
+  96: '/assets/images/favicon.jpg'
+  120: '/assets/images/favicon.jpg'
+  144: '/assets/images/favicon.jpg'
+  180: '/assets/images/favicon.jpg'
+  512: '/assets/images/favicon.jpg'
+  1024: '/assets/images/favicon.jpg'
 
 # 9. Site navigation
 navigation_header:
 - title: Home
   url: /
 - title: About
-  url: ./about.html
+  url: /about.html
 - title: Research
-  url: ./projects/all.html
+  url: /projects/all.html
 - title: Publications
-  url: ./publications.html
+  url: /publications.html
 - title: People
-  url: ./people/all.html
+  url: /people/all.html
 - title: Contact
-  url: ./contact.html
+  url: /contact.html
 - title: Join
-  url: ./join.html
+  url: /join.html
 - title: GitHub
   url: https://github.com/aria-systems-group
 - title: YouTube
